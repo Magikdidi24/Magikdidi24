@@ -8,7 +8,7 @@ I work on image reconstruction with PyTorch, and on compilers and developer tool
 ## What I've worked on
 
 - Hyperspectral reconstruction at the LRE, EPITA's research lab (2026). Convex reconstruction of photon-starved SEM-EDS cubes of meteorites in PyTorch on GPU, guided by the backscattered-electron image. +1.5 dB PSNR on a synthetic ground truth. The code stays with the lab.
-- Compiler work at Faveod in Paris. Bug fixes and optimization on a multi-source compiler, the pipeline went from 17 to 9 minutes. I also made compilation 200% faster in the Roslyn C# engine and switched the parser from whitequark to Prism (20% faster parsing). I improved the pretty-printer and parenthesization too, and moved the project from Node.js to Deno with much stricter generated TypeScript.
+- Compiler work at Faveod in Paris. Bug fixes and optimization on a multi-source compiler, the pipeline went from 17 to 9 minutes. I also made compilation 3x faster in the Roslyn C# engine and switched the parser from whitequark to Prism (20% faster parsing). I improved the pretty-printer and parenthesization too, and moved the project from Node.js to Deno with much stricter generated TypeScript.
 - Open source: four merged PRs to [RuboCop](https://github.com/rubocop/rubocop/pulls?q=author%3AMagikdidi24) (the `rubocop:push` / `rubocop:pop` directives and some fixes), and a [fork of tree-sitter-ruby](https://github.com/Magikdidi24/tree-sitter-ruby) that I maintain, with Ruby 3.0+ syntax and parser fixes.
 - Private EPITA projects: a Tiger compiler in C++, a POSIX shell (42sh) and malloc in C, Go microservices with Docker, a Quarkus REST backend.
 
